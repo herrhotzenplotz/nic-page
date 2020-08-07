@@ -38,8 +38,8 @@ li {
 }
 
 .content {
-    text-indent: 1.5em;
-    margin: 1em;
+    text-indent: 0px;
+    margin: 2em;
 }
 
 .question {
