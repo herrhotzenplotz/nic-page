@@ -1,0 +1,56 @@
+body {
+    background-color: #1F1F1F;
+    color: #FFFFFF;
+    font-family: Courier;
+}
+
+h1 {
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+h2 {
+    font-size: 25px;
+    margin-top:   1em;
+}
+
+h3 {
+    font-size: 20px;
+    margin-top:   1em;
+}
+
+a {
+    color: #FFFFFF;
+}
+
+li {
+    padding-top: 0.5em;
+    color: #E1E1E1;
+}
+
+#header {
+    padding: 1em;
+}
+
+#footer {
+    font-size: 1em;
+    margin: 5em;
+}
+
+.content {
+    text-indent: 1.5em;
+    margin: 1em;
+}
+
+.question {
+    text-indent: 1em;
+    margin:      1em;
+    font-size:   1.5em;
+}
+
+.answer {
+    font-size: 1em;
+    margin-left: 6em;
+    margin-right: 5em;
+    text-indent: -2em;
+}
