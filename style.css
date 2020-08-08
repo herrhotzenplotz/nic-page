@@ -43,6 +43,19 @@ li {
     margin: 2em;
 }
 
+.subheader {
+    text-indent: 1em;
+    margin:      1em;
+    font-size:   1.3em;
+}
+
+.subcontent {
+    font-size:    1em;
+    margin-top:   1.5em;
+    margin-left:  6em;
+    margin-right: 5em;
+}
+
 .question {
     text-indent: 1em;
     margin:      1em;
