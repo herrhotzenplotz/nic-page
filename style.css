@@ -31,11 +31,18 @@ li {
 
 #header {
     padding: 1em;
+    position: fixed;
+    background: #1F1F1FF0;
+    width: 100%;
 }
 
 #footer {
     font-size: 1em;
     margin: 5em;
+}
+
+#body-content {
+    padding-top: 5em;
 }
 
 .content {

@@ -12,108 +12,110 @@
       <br/>
     </div>
 
-    <span style="padding:20px;color:red">This list is not complete. I am working on
-      it.</span>
+    <div id="body-content">
+
+      <span style="padding:20px;color:red">This list is not complete. I am working on
+        it.</span>
 
 
-    <!-- BEGIN TLCI -->
+      <!-- BEGIN TLCI -->
 
-    <div>
-      <div class="subheader">
-        TLCI - Tiny Lambda Calculus Interpreter
+      <div>
+        <div class="subheader">
+          TLCI - Tiny Lambda Calculus Interpreter
+        </div>
+
+        <div class="subcontent">
+          A lambda calculus interpreter in C99. I mostly developed it on
+          my own, but parts of it on Twitch. See
+          the <a href="https://www.twitch.tv/collections/aNG3HJlDIhbJKg">Twitch
+            Playlist</a>.
+          <br/>
+        </div>
+
+        <div class="subcontent">
+          <img src="assets/tlci.png" alt="Boolean logic inside the
+                                          tlci"/>
+
+          <br/>
+
+          <a href="https://gitlab.com/herrhotzenplotz/tlci">GitLab</a>
+        </div>
+
+        <div class="subcontent">
+          <h3>Features</h3>
+          <br/>
+          <ul>
+            <li>- Strict evaluation model</li>
+            <li>- Mark-and-sweep garbage collector</li>
+            <li>- Loading files</li>
+            <li>- Binding/releasing variables in the global scope</li>
+          </ul>
+        </div>
+        <div class="subcontent">
+          <h3>Commentary</h3>
+
+          <br/>
+
+          The goal of this project was to reimplement my previous
+          implementation of a lambda calculus interpreter, which was
+          written in Haskell, in C99 to make it cross-platform.
+
+          <br/>
+
+          I wanted to give flex and yacc a shot because I was hacking on
+          Hugs98 and it used those tools. I have never used them before
+          so that was a good reason to do something with'em.
+
+          <br/>
+
+          The project itself only depends on a C99 compiler, flex, yacc
+          and make. For readline support I
+          recommend `<a href="https://github.com/hanslub42/rlwrap">rlwrap</a>`,
+          a little tool that adds support for readline in applications
+          that don't support it.
+
+          <br/>
+
+          I deliberatly didn't add it as a dependency, since I wanted to
+          have as few as possible and also, the GNU libs are usually a
+          bit difficult to work with on foreign platforms.
+        </div>
       </div>
 
-      <div class="subcontent">
-        A lambda calculus interpreter in C99. I mostly developed it on
-        my own, but parts of it on Twitch. See
-        the <a href="https://www.twitch.tv/collections/aNG3HJlDIhbJKg">Twitch
-          Playlist</a>.
-        <br/>
+      <!-- END TLCI -->
+
+      <!-- BEGIN LC -->
+      <div>
+        <div class="subheader">
+          LC - Lambda Calculus interpreter in Haskell
+        </div>
+
+        <div class="subcontent">
+          <img src="assets/lc.png" alt="Boolean logic inside the
+                                        lc"
+               width="50%"/>
+
+          <br/>
+
+          <a href="https://gitlab.com/herrhotzenplotz/lc">GitLab</a>
+        </div>
+
+        <div class="subcontent">
+          This is the original version of my lambda calculus interpreter
+          in Haskell. I wrote it in an afternoon and had very much fun
+          with it. Later I ported it to Hugs98 and it works in
+          there. Switch to the hugs branch on GitLab to use the Hugs
+          port.
+        </div>
+
+
       </div>
+      <!-- END LC -->
 
-      <div class="subcontent">
-        <img src="assets/tlci.png" alt="Boolean logic inside the
-                                        tlci"/>
-
+      <div class="footer">
         <br/>
-
-        <a href="https://gitlab.com/herrhotzenplotz/tlci">GitLab</a>
-      </div>
-
-      <div class="subcontent">
-        <h3>Features</h3>
-        <br/>
-        <ul>
-          <li>- Strict evaluation model</li>
-          <li>- Mark-and-sweep garbage collector</li>
-          <li>- Loading files</li>
-          <li>- Binding/releasing variables in the global scope</li>
-        </ul>
-      </div>
-      <div class="subcontent">
-        <h3>Commentary</h3>
-
-        <br/>
-
-        The goal of this project was to reimplement my previous
-        implementation of a lambda calculus interpreter, which was
-        written in Haskell, in C99 to make it cross-platform.
-
-        <br/>
-
-        I wanted to give flex and yacc a shot because I was hacking on
-        Hugs98 and it used those tools. I have never used them before
-        so that was a good reason to do something with'em.
-
-        <br/>
-
-        The project itself only depends on a C99 compiler, flex, yacc
-        and make. For readline support I
-        recommend `<a href="https://github.com/hanslub42/rlwrap">rlwrap</a>`,
-        a little tool that adds support for readline in applications
-        that don't support it.
-
-        <br/>
-
-        I deliberatly didn't add it as a dependency, since I wanted to
-        have as few as possible and also, the GNU libs are usually a
-        bit difficult to work with on foreign platforms.
       </div>
     </div>
-
-    <!-- END TLCI -->
-
-    <!-- BEGIN LC -->
-    <div>
-      <div class="subheader">
-        LC - Lambda Calculus interpreter in Haskell
-      </div>
-
-      <div class="subcontent">
-        <img src="assets/lc.png" alt="Boolean logic inside the
-                                      lc"
-             width="50%"/>
-
-        <br/>
-
-        <a href="https://gitlab.com/herrhotzenplotz/lc">GitLab</a>
-      </div>
-
-      <div class="subcontent">
-        This is the original version of my lambda calculus interpreter
-        in Haskell. I wrote it in an afternoon and had very much fun
-        with it. Later I ported it to Hugs98 and it works in
-        there. Switch to the hugs branch on GitLab to use the Hugs
-        port.
-      </div>
-
-
-    </div>
-    <!-- END LC -->
-
-    <div class="footer">
-      <br/>
-    </div>
-
   </body>
 </html>
