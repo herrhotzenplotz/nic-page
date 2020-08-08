@@ -2,6 +2,7 @@ body {
     background-color: #1F1F1F;
     color: #FFFFFF;
     font-family: Courier;
+    max-width: 50em;
 }
 
 h1 {
