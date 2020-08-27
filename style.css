@@ -29,6 +29,11 @@ li {
     color: #E1E1E1;
 }
 
+sub {
+    vertical-align: sub;
+    font-size: 10px;
+}
+
 #header {
     padding: 1em;
     position: fixed;
